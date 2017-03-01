@@ -2,7 +2,7 @@
 
 ###1.Document Introduction  
 ```  
- 
+This document will cover the requirements of an email client system. It will cover user and system requirements as well as functional and non-functional requirements. In addition to that uml diagrams will be used to support the email client system. 
  
  
 
