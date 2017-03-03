@@ -26,14 +26,24 @@ This document will cover the requirements of an email client system. It will cov
 ###3.Non-functional	requirements of	the	system
 ```  
  
- 
+
+
  
 
 ```
 ###4.Functional requirements of	the	system
 ```  
- 
- 
+- Important emails can be flagged, so they appear at the top of the Inbox.
+- Junk mail that does not require an immediate action, will be stored in the junk folder.
+- Emails that may require attention at a later stage can be archived.
+- Emails can also be organised into folders.
+- When writing emails spell check should automatically recognise any incorrect spellings or grammatical errors. 
+-The user must be able to attach a file to an email, by using the drag and drop interface or by manually selecting the file in the directory in which it is stored. 
+- Users must be able to print emails.
+- An auto-response feature may be added, in the event the user is on a vaccation and is unable to respond to an email. 
+- The user must be able to view emails, send emails, delete emails and forward emails.
+
+
  
 
 ```
