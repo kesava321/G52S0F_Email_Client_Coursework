@@ -46,10 +46,15 @@ This document will cover the requirements of an email client system. It will cov
 - When writing emails spell check should automatically recognise any incorrect spellings or grammatical errors. 
 - The user must be able to attach a file to an email, by using the drag and drop interface or by manually selecting the file in the directory in which it is stored. 
 - Users must be able to print emails.
-- An auto-response feature may be added, in the event the user is on a vaccation and is unable to respond to an email. 
+- An auto-response feature may be added, in the event the user is on a vacation and is unable to respond to an email. 
 - The user must be able to view emails, send emails, delete emails and forward emails.
-
-
+- Use standard TCP/IP protocol to manage network of the email client. 
+- Notifications can be provided, when new mail arrives. 
+- The email client should not interfere with any other programs that are running. 
+- Outgoing mail should be authenticated, so that the sender'd identity cannot be falsified. 
+- Users should be able to search and view stored emails. 
+- User can change their password or account settings.
+- If email is unable to be sent, due to technical errors, then a delivery failure email should be sent to the sender. 
  
 
 
