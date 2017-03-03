@@ -24,21 +24,27 @@ This document will cover the requirements of an email client system. It will cov
 
 ```
 ###3.Non-functional	requirements of	the	system
-```  
- 
+  
+- Interface- The system should have an easy to use interface, that allows the user to easily perform any task they require.  
+- Performance - Once an email is sent, it should arrive in the recipients mailbox within a few seconds. The email client must also be able to allocate the relevant memory, in order view big emails that contain a lot of data.
+- Reliability - The email client should be able to send and receive emails without any errors or delays. 
+- Availability - The client must be platform independent, i.e. it should work on windows, mac, line or any other operating system. 
+- Security - The user account details and password should be encrypted and securely stored within the email client. 
+- Maintainability- The email client should allow the user to maintain and manage all emails. Also the users profiles/account settings must be maintained, along with any software updates/security patches that may be released in the future. 
+- Portability - The user should be able to access their email anywhere on any computer. 
 
 
  
 
-```
+
 ###4.Functional requirements of	the	system
-```  
+
 - Important emails can be flagged, so they appear at the top of the Inbox.
 - Junk mail that does not require an immediate action, will be stored in the junk folder.
 - Emails that may require attention at a later stage can be archived.
 - Emails can also be organised into folders.
 - When writing emails spell check should automatically recognise any incorrect spellings or grammatical errors. 
--The user must be able to attach a file to an email, by using the drag and drop interface or by manually selecting the file in the directory in which it is stored. 
+- The user must be able to attach a file to an email, by using the drag and drop interface or by manually selecting the file in the directory in which it is stored. 
 - Users must be able to print emails.
 - An auto-response feature may be added, in the event the user is on a vaccation and is unable to respond to an email. 
 - The user must be able to view emails, send emails, delete emails and forward emails.
@@ -46,7 +52,7 @@ This document will cover the requirements of an email client system. It will cov
 
  
 
-```
+
 ###5.Formal	description	of the system behaviour
 ```  
  
@@ -54,7 +60,7 @@ This document will cover the requirements of an email client system. It will cov
  
 
 ```
-###6.Examples of	system	usage
+###6.Examples of system	usage
 ```  
  
  
