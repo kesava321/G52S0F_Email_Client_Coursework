@@ -18,17 +18,25 @@ This document will cover the requirements of an email client system. It will cov
 - The email client should also allow the secure transfer of any media files.
 - The user must be able to add contacts to their address book. 
 - Once the user has finished using the email client, they can then securely log out. 
-
- 
- 
-
 ```
+```diff 
++High level description of system, briefly describing what the system is and business needs. 
+-do not need to describe the system in detail. 
+``` 
+ 
+
+
 ###3.Non-functional	requirements of	the	system
   
 - Interface- The system should have an easy to use interface, that allows the user to easily perform any task they require.  
 - Performance - Once an email is sent, it should arrive in the recipients mailbox within a few seconds. The email client must also be able to allocate the relevant memory, in order view big emails that contain a lot of data.
-- Reliability - The email client should be able to send and receive emails without any errors or delays. 
-- Availability - The client must be platform independent, i.e. it should work on windows, mac, line or any other operating system. 
+- Reliability - The email client should be able to send and receive emails without any errors or delays.
+
+```diff
+-remove between about platform independent.
+```
+
+-Availability - The client must be platform independent, i.e. it should work on windows, mac, line or any other operating system. 
 - Security - The user account details and password should be encrypted and securely stored within the email client. 
 - Maintainability- The email client should allow the user to maintain and manage all emails. Also the users profiles/account settings must be maintained, along with any software updates/security patches that may be released in the future. 
 - Portability - The user should be able to access their email anywhere on any computer. 
@@ -48,6 +56,11 @@ This document will cover the requirements of an email client system. It will cov
 - Users must be able to print emails.
 - An auto-response feature may be added, in the event the user is on a vacation and is unable to respond to an email. 
 - The user must be able to view emails, send emails, delete emails and forward emails.
+
+```diff
++describe pop protocol and then use tcp/ip 
+-not necessary to focus on server side, i.e. mail delivery failures. 
+```
 - Use standard TCP/IP protocol to manage network of the email client. 
 - Notifications can be provided, when new mail arrives. 
 - The email client should not interfere with any other programs that are running. 
