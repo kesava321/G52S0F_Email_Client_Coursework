@@ -17,12 +17,7 @@ The system will allow a user to access an email client through the web. This sys
 - Interface- The system should have an easy to use interface, that allows the user to easily perform any task they require.  
 - Performance - Once an email is sent, it should arrive in the recipients mailbox within a few seconds. The email client must also be able to allocate the relevant memory, in order view big emails that contain a lot of data.
 - Reliability - The email client should be able to send and receive emails without any errors or delays.
-
-```diff
--remove between about platform independent.
-```
-
--Availability - The client must be platform independent, i.e. it should work on windows, mac, line or any other operating system. 
+- Availability - The client can be accessed on any device with an internet connection. It is a web application so it should work on any operating system, such as Windows, Mac, Linux etc. 
 - Security - The user account details and password should be encrypted and securely stored within the email client. 
 - Maintainability- The email client should allow the user to maintain and manage all emails. Also the users profiles/account settings must be maintained, along with any software updates/security patches that may be released in the future. 
 - Portability - The user should be able to access their email anywhere on any computer. 
