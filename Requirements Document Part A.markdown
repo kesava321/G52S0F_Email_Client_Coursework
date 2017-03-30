@@ -65,11 +65,12 @@ The system will allow a user to access an email client through the web. This sys
 
 ###5.Formal	description	of the system behaviour
 ```  
- 
- 
- 
-
+Firstly the user accesses the email client though the web. The user will then be required to enter  the login details, in order to gain secure access to their email. The system responds appropriately, by either accepting or rejecting the login details. If successful the user will be directed to the main page, which is their Inbox. The user can now do various tasks, such as view an email or write a new email. Once the email is sent the system will send it to the server and then relay it to the receiving client, where the email can then be viewed.    
 ```
+
+
+
+
 ###6.Examples of system	usage
 ```  
  
