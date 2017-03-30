@@ -27,8 +27,7 @@ The system will allow a user to access an email client through the web. This sys
 
 
 ###4.Functional requirements of	the	system
-- Once logged in they can view any email they have received, send emails, delete      
-  emails, forward emails and perform any other tasks usually found in any email client.  
+- Once logged in they can view any email they have received, send emails, delete emails, forward emails and perform any other tasks usually found in any email client.  
 - Additional security features are provided, such as being able to mark suspicious emails as spam or being able to an unverified block a sender. 
 - The email client should also allow the secure transfer of any media files.
 - The user must be able to add contacts to their address book. 
@@ -41,19 +40,14 @@ The system will allow a user to access an email client through the web. This sys
 - Users must be able to print emails.
 - An auto-response feature may be added, in the event the user is on a vacation and is unable to respond to an email. 
 - The user must be able to view emails, send emails, delete emails and forward emails.
-- 
-```diff
-+describe pop protocol and then use tcp/ip 
--not necessary to focus on server side, i.e. mail delivery failures. 
-```
-- Use standard TCP/IP protocol to manage network of the email client. 
+- IMAP protocol may be used for downloading messages from your Inbox to your local computer. The advantage of using IMAP over POP is that it allows the users to view the email client on a multitude of devices, such as their laptop, phone or tablet. 
+- TCP/IP protocol can be used to manage requests by the client over a network. 
 - Notifications can be provided, when new mail arrives. 
 - The email client should not interfere with any other programs that are running. 
 - Outgoing mail should be authenticated, so that the sender'd identity cannot be falsified. 
 - Users should be able to search and view stored emails. 
 - User can change their password or account settings.
-- If email is unable to be sent, due to technical errors, then a delivery failure email should be sent to the sender. 
-- Once the user has finished using the email client, they can then securely log out. 
+- Allow the user to securely log out of the email client. 
 
 
 ###5.Formal	description	of the system behaviour
