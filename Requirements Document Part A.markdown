@@ -3,27 +3,13 @@
 ###1.Document Introduction  
 ```  
 This document will cover the requirements of an email client system. It will cover user and system requirements as well as functional and non-functional requirements. In addition to that UML diagrams will be used to support the email client system. 
- 
- 
 
 ```  
 ###2.System	Overview
 
 ```  
-- A user can access the email client by using the web or the software.
-- The user is then able to securely login into the system.
-- Once logged in they can view any email they have received, send emails, delete      
-  emails, forward emails and perform any other tasks usually found in any email client.  
-- Additional security features are provided, such as being able to mark suspicious emails as spam or being able to an unverified block a sender. 
-- The email client should also allow the secure transfer of any media files.
-- The user must be able to add contacts to their address book. 
-- Once the user has finished using the email client, they can then securely log out. 
+The system will allow a user to access an email client through the web. This system will be suitable for a wide variety of people who use email, as a means of communication. It will mostly be used be adults who are in an educational establishment or by an average working person, who may use it in an office environment. The system itself will enable a user to securely login to the email client over the internet, were they will then be able to view, access and manage their emails. 
 ```
-```diff 
-+High level description of system, briefly describing what the system is and business needs. 
--do not need to describe the system in detail. 
-``` 
- 
 
 
 ###3.Non-functional	requirements of	the	system
@@ -46,7 +32,11 @@ This document will cover the requirements of an email client system. It will cov
 
 
 ###4.Functional requirements of	the	system
-
+- Once logged in they can view any email they have received, send emails, delete      
+  emails, forward emails and perform any other tasks usually found in any email client.  
+- Additional security features are provided, such as being able to mark suspicious emails as spam or being able to an unverified block a sender. 
+- The email client should also allow the secure transfer of any media files.
+- The user must be able to add contacts to their address book. 
 - Important emails can be flagged, so they appear at the top of the Inbox.
 - Junk mail that does not require an immediate action, will be stored in the junk folder.
 - Emails that may require attention at a later stage can be archived.
@@ -56,7 +46,7 @@ This document will cover the requirements of an email client system. It will cov
 - Users must be able to print emails.
 - An auto-response feature may be added, in the event the user is on a vacation and is unable to respond to an email. 
 - The user must be able to view emails, send emails, delete emails and forward emails.
-
+- 
 ```diff
 +describe pop protocol and then use tcp/ip 
 -not necessary to focus on server side, i.e. mail delivery failures. 
@@ -68,7 +58,7 @@ This document will cover the requirements of an email client system. It will cov
 - Users should be able to search and view stored emails. 
 - User can change their password or account settings.
 - If email is unable to be sent, due to technical errors, then a delivery failure email should be sent to the sender. 
- 
+- Once the user has finished using the email client, they can then securely log out. 
 
 
 ###5.Formal	description	of the system behaviour
