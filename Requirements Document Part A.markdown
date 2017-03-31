@@ -5,6 +5,7 @@
 This document will cover the requirements of an email client system. It will cover user and system requirements as well as functional and non-functional requirements. In addition to that UML diagrams will be used to support the email client system. 
 
 ```  
+
 ###2.System	Overview
 
 ```  
@@ -72,9 +73,18 @@ Firstly the user accesses the email client though the web. The user will then be
 
 
 ###6.Examples of system	usage
-```  
- 
- 
- 
 
-```
+#####Activity 
+ 
+ ![Email Activity.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Email Activity.jpg "Activity")
+ 
+#####Use Case
+
+ ![Email Use Case.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Email Use Case.jpg "Use Case ")
+ 
+#####Sequence  
+ 
+![Email Sequence.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Email Sequence.jpg "Sequence")
+
+![Email Sequence Adv.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Email Sequence Adv.jpg "Sequence Adv")
+
