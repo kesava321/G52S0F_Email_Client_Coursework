@@ -14,6 +14,7 @@
 
 **_Diagram 2_**
 
+![Client Server Architecture2.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Client Server Architecture2.jpg "Client Server Architecture2") 
 
 ###3.MVC Architectural Pattern 
 
