@@ -18,7 +18,7 @@
 
 ###3.MVC Architectural Pattern 
 
-
+![MVC Architectural Pattern.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/MVC Architectural Pattern.jpg "MVC Architectural Pattern")
 
 
 ###4.Layered Architecture
