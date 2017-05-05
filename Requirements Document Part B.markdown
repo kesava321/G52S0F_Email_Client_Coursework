@@ -1,12 +1,8 @@
 #Architecture Diagrams for an Email Client 
 
 ###1.Architecture for Managing an Email
-```  
 
-
-
-
-```  
+![Architecture for Managing an Email.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Architecture for Managing an Email.jpg "Architecture for Managing an Email") 
 
 
 ###2.Client Server Architecture 
