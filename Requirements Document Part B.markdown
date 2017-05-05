@@ -2,16 +2,14 @@
 
 ###1.Architecture for Managing an Email
 
-![Architecture for Managing an Email.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Architecture for Managing an Email.jpg "Architecture for Managing an Email") 
+![Architecture for Managing an Email.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Architecture for Managing an Email.jpg "Architecture for Managing an Email")   
 
 
 ###2.Client Server Architecture 
 
 **_Diagram 1_**
 
-
-
-
+![Client Server Architecture.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Client Server Architecture.jpg "Client Server Architecture") 
 
 
 **_Diagram 2_**
