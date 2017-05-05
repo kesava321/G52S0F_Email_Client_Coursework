@@ -38,6 +38,7 @@
 
 ###7.Class Diagram
 
+![Email Class.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Email Class.jpg "Email Class")
 
 
 ###8.Description of Classes
