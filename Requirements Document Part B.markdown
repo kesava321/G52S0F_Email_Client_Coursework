@@ -43,19 +43,19 @@
 
 ###8.Description of Classes
 
-- **_Account Login_** - The
+- **_Account Login_** - This class simply contains the login form, which has two  input boxes for the username and password. 
 
-- **_Main_** - The
+- **_Main_** - This is the main class, which calls the other classes on compile time. It is essentially the user interface class. 
 
-- **_Profile Management_** - The
+- **_Profile Management_** - This class simple allows the user to edit or delete their profile.
 
-- **_TbProfile_** - The
+- **_TbProfile_** - This class contains all the relevant information regarding the users profile. 
 
-- **_User Database_** - The
+- **_User Database_** - This class provides a secure connection to the database, where the user accounts are stored. 
 
-- **_Inbox Management_** - The
+- **_Inbox Management_** - This class allows the users to manage their emails that are located within the inbox.
 
-- **_TbInbox_** - The
+- **_TbInbox_** - his class contains all the relevant information regarding the users inbox. 
 
 - **_Create Email_** - The
 
