@@ -57,19 +57,19 @@
 
 - **_TbInbox_** - his class contains all the relevant information regarding the users inbox. 
 
-- **_Create Email_** - The
+- **_Create Email_** - This class simply contains the functions that allow the user to create a new email. 
 
-- **_Functions_** - The
+- **_Functions_** - The class contains all the other additional functionalities of the email client.
 
-- **_Junk_** - The
+- **_Junk_** - This class simply contains junk email, where the user can perform an appropriate action.
 
-- **_Drafts_** - The
+- **_Drafts_** - This class simply contains drafts, where the user can perform an appropriate action.
 
-- **_Sent Email_** - The
+- **_Sent Email_** - This class simply contains sent emails, where the user can perform an appropriate action.
 
-- **_Deleted Email_** - The
+- **_Deleted Email_** - This class simply contains deleted emails, where the user can perform an appropriate action.
 
-- **_Manage Folders_** - The
+- **_Manage Folders_** - This class allows the user to manage and organise any folders that they may have created.
 
 
 
