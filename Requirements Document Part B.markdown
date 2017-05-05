@@ -28,6 +28,8 @@
 
 ###5.Repository Architecture
 
+![Repository Architecture.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Repository Architecture.jpg "Repository Architecture")
+
 
 
 ###6.Software Architecture
