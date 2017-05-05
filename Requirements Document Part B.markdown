@@ -31,9 +31,9 @@
 ![Repository Architecture.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Repository Architecture.jpg "Repository Architecture")
 
 
-
 ###6.Software Architecture
 
+![Software Architecture.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Software Architecture.jpg "Software Architecture")
 
 
 ###7.Class Diagram
