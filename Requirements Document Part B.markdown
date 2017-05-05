@@ -23,7 +23,7 @@
 
 ###4.Layered Architecture
 
-
+![Layered Architecture.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Layered Architecture.jpg "Layered Architecture")
 
 
 ###5.Repository Architecture
