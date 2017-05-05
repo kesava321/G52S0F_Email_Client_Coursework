@@ -42,3 +42,34 @@
 
 
 ###8.Description of Classes
+
+- **_Account Login_** - The
+
+- **_Main_** - The
+
+- **_Profile Management_** - The
+
+- **_TbProfile_** - The
+
+- **_User Database_** - The
+
+- **_Inbox Management_** - The
+
+- **_TbInbox_** - The
+
+- **_Create Email_** - The
+
+- **_Functions_** - The
+
+- **_Junk_** - The
+
+- **_Drafts_** - The
+
+- **_Sent Email_** - The
+
+- **_Deleted Email_** - The
+
+- **_Manage Folders_** - The
+
+
+
