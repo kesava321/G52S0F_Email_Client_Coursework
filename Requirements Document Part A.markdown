@@ -1,19 +1,15 @@
-#Requirements For Email Client
+# Requirements For Email Client
 
-###1.Document Introduction  
-```  
-This document will cover the requirements of an email client system. It will cover user and system requirements as well as functional and non-functional requirements. In addition to that UML diagrams will be used to support the email client system. 
+### 1.Document Introduction  
+  This document will cover the requirements of an email client system. It will cover user and system requirements as well as functional and non-functional requirements. In addition to that UML diagrams will be used to support the email client system. 
 
-```  
 
-###2.System	Overview
-
-```  
+### 2.System	Overview
 The system will allow a user to access an email client through the web. This system will be suitable for a wide variety of people who use email, as a means of communication. It will mostly be used be adults who are in an educational establishment or by an average working person, who may use it in an office environment. The system itself will enable a user to securely login to the email client over the internet, were they will then be able to view, access and manage their emails. 
-```
 
 
-###3.Non-functional	requirements of	the	system
+
+### 3.Non-functional	requirements of	the	system
   
 - **_Interface_** - The system should have an easy to use interface, that allows the user to easily perform any task they require.  
 - **_Performance_** - Once an email is sent, it should arrive in the recipients mailbox within a few seconds. The email client must also be able to allocate the relevant memory, in order view big emails that contain a lot of data.
@@ -27,7 +23,7 @@ The system will allow a user to access an email client through the web. This sys
  
 
 
-###4.Functional requirements of	the	system
+### 4.Functional requirements of	the	system
 
 1. **_Main Features:_**
   * The user should be able to search/view emails, send emails, delete emails and forward emails.
@@ -64,27 +60,27 @@ The system will allow a user to access an email client through the web. This sys
 
 
 
-###5.Formal	description	of the system behaviour
-```  
+### 5.Formal	description	of the system behaviour
+
+
 Firstly the user accesses the email client though the web. The user will then be required to enter  the login details, in order to gain secure access to their email. The system responds appropriately, by either accepting or rejecting the login details. If successful the user will be directed to the main page, which is their Inbox. The user can now do various tasks, such as view an email or write a new email. Once the email is sent the system will send it to the server and then relay it to the receiving client, where the email can then be viewed.    
-```
 
 
 
 
-###6.Examples of system	usage
 
-#####Activity 
+### 6.Examples of system	usage
+
+##### Activity 
  
- ![Email Activity.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Email Activity.jpg "Activity")
+ ![Email Activity.jpg](Email Activity.jpg "Activity")
  
-#####Use Case
+##### Use Case
 
- ![Email Use Case.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Email Use Case.jpg "Use Case ")
+ ![Email Use Case.jpg](Email Use Case.jpg "Use Case ")
  
-#####Sequence  
+##### Sequence  
  
-![Email Sequence.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Email Sequence.jpg "Sequence")
+![Email Sequence.jpg](Email Sequence.jpg "Sequence")
 
-![Email Sequence Adv.jpg](C:/Users/Kesava/G52SOF_Email_Client_Coursework/Email Sequence Adv.jpg "Sequence Adv")
-
+![Email Sequence Adv.jpg](Email Sequence Adv.jpg "Sequence Adv")
