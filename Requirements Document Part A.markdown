@@ -6,10 +6,26 @@
 
 ### 2.System	Overview
 The system will allow a user to access an email client through the web. This system will be suitable for a wide variety of people who use email, as a means of communication. It will mostly be used be adults who are in an educational establishment or by an average working person, who may use it in an office environment. The system itself will enable a user to securely login to the email client over the internet, were they will then be able to view, access and manage their emails. 
+```diff
+-Include system context diagram 
+-Refer to lecture slides to compare email client with non-digital domestic mail.
+```
 
 
 
-### 3.Non-functional	requirements of	the	system
+### 3.User Requirements
+```diff
+-Include user stories and add context
+```
+
+
+
+### 4.Non-functional	requirements of	the	system
+
+```diff
+-This is not necessarily a 1 to 1 relationship, i.e. some categories can have more than 1 requirements. Do some with 2/3/4 points. 
+```
+
   
 - **_Interface_** - The system should have an easy to use interface, that allows the user to easily perform any task they require.  
 - **_Performance_** - Once an email is sent, it should arrive in the recipients mailbox within a few seconds. The email client must also be able to allocate the relevant memory, in order view big emails that contain a lot of data.
@@ -23,7 +39,12 @@ The system will allow a user to access an email client through the web. This sys
  
 
 
-### 4.Functional requirements of	the	system
+### 5.Functional requirements of	the	system
+
+```diff
+-Number individual functional requirements
+-Create a requirements table, id, title, rational and description. 
+```
 
 1. **_Main Features:_**
   * The user should be able to search/view emails, send emails, delete emails and forward emails.
@@ -60,16 +81,11 @@ The system will allow a user to access an email client through the web. This sys
 
 
 
-### 5.Formal	description	of the system behaviour
+### 6.Formal	description	of the system behaviour
 
 
 Firstly the user accesses the email client though the web. The user will then be required to enter  the login details, in order to gain secure access to their email. The system responds appropriately, by either accepting or rejecting the login details. If successful the user will be directed to the main page, which is their Inbox. The user can now do various tasks, such as view an email or write a new email. Once the email is sent the system will send it to the server and then relay it to the receiving client, where the email can then be viewed.    
 
-
-
-
-
-### 6.Examples of system	usage
 
 ##### Activity 
  
@@ -84,3 +100,11 @@ Firstly the user accesses the email client though the web. The user will then be
 ![Email Sequence.jpg](Email Sequence.jpg "Sequence")
 
 ![Email Sequence Adv.jpg](Email Sequence Adv.jpg "Sequence Adv")
+
+
+
+### 7.Examples of system	usage
+
+```diff
+-Scenarios of system usage, i.e. mum sends email to school or dad sends email to place of work. 
+```
