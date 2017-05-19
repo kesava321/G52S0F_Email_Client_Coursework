@@ -16,9 +16,24 @@ The email client that I will design, relates to my understanding of how a no-dig
 
 
 ### 3.User Requirements
+
+1. Users should be able to securely access their emails. 
+2. Users should be able to send and receive emails.
+3. Users should be able to include file attachments in their emails. 
+4. Users should be able to forward an email to multiple peoples. 
+5. Users should be able to organise emails into folders. 
+6. Users should be able to delete emails.
+7. Users chould be able to change account settings. 
+
+##### User Stories
 ```diff
 -Include user stories and add context
 ```
+
+
+##### Use Case
+
+ ![Email Use Case.jpg](Email Use Case.jpg "Use Case ")
 
 
 
@@ -93,9 +108,6 @@ Firstly the user accesses the email client though the web. The user will then be
  
  ![Email Activity.jpg](Email Activity.jpg "Activity")
  
-##### Use Case
-
- ![Email Use Case.jpg](Email Use Case.jpg "Use Case ")
  
 ##### Sequence  
  
