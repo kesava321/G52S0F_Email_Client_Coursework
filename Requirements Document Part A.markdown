@@ -39,18 +39,41 @@ The use case diagram below shows that the user and administrator can manage the 
 
 ### 4.Non-functional	requirements of	the	system
 
-```diff
--This is not necessarily a 1 to 1 relationship, i.e. some categories can have more than 1 requirements. Do some with 2/3/4 points. 
-```
-
   
-- **_Interface_** - The system should have an easy to use interface, that allows the user to easily perform any task they require.  
-- **_Performance_** - Once an email is sent, it should arrive in the recipients mailbox within a few seconds. The email client must also be able to allocate the relevant memory, in order view big emails that contain a lot of data.
-- **_Reliability_** - The email client should be able to send and receive emails without any errors or delays.
-- **_Availability_** - The client can be accessed on any device with an internet connection. It is a web application so it should work on any operating system, such as Windows, Mac, Linux etc. 
-- **_Security_** - The user account details and password should be encrypted and securely stored within the email client. 
-- **_Maintainability_** - The email client should allow the user to maintain and manage all emails. Also the users profiles/account settings must be maintained, along with any software updates/security patches that may be released in the future. 
-- **_Portability_** - The user should be able to access their email anywhere on any computer. 
+1. **_Interface_** 
+
+    1.1 The system should have an easy to use interface, that allows the user to easily perform any task they require.
+   
+    1.2 The colour scheme of the email client should be neutral and should not be too  bright, so that all users can easily see the different features. 
+    
+2. **_Performance_** 
+    
+    2.1 Once an email is sent, it should arrive in the recipients mailbox within a few seconds. The email client must also be able to allocate the relevant memory, in order view big emails that contain a lot of data.
+    
+3.  **_Reliability_** 
+    
+    3.1 The email client should be able to send and receive emails without any errors or delays.
+    
+    3.2 The email client should allow the user to send email to multiple recipients, without any error or delays. 
+    
+    3.3 The email client should work as normal at any time of the day. 
+    
+4.  **_Availability_**
+    
+    4.1 The client can be accessed on any device with an internet connection. It is a web application so it should work on any operating system, such as Windows, Mac, Linux etc. 
+    
+5.  **_Security_**
+    
+    5.1 The user account details and password should be encrypted and securely stored within the email client.
+    
+    5.2 The email client should warn the user, if they attempt to open a malicious file within an email.  
+    
+    
+6.  **_Maintainability_**
+   
+     6.1 The email client should allow the user to maintain and manage all emails.
+     
+     6.2 The users profiles/account settings must be maintained, along with any software updates/security patches that may be released in the future. 
 
 
  
