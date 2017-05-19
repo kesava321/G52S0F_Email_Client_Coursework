@@ -7,9 +7,9 @@ This document will cover the requirements of an email client system. It will cov
 ### 2.System	Overview
 The system will allow a user to access an email client through the web. This system will be suitable for a wide variety of people who use email, as a means of communication. It will mostly be used be adults who are in an educational establishment or by an average working person, who may use it in an office environment. The system itself will enable a user to securely login to the email client over the internet, were they will then be able to view, access and manage their emails. 
 
-
+The system context diagram below shows the different systems that the email client interacts with in order to work. 
  
- ![Email System Context.jpg](System Context.jpg "System Context")
+ ![Email System Context.jpg](Email System Context.jpg "System Context")
  
 
 The email client that I will design, relates to my understanding of how a no-digital domestic mail service works. In this case the mail arrives somewhere near your front door, similarly in the email client email arrives either in the inbox or junk mail folder. Then the mail gets collected, similarly in the email client new mail is marked as unread, in order to notify the user that it has just arrived. After that mail gets placed in an appropriate location that reflects its action status, for example important mail is placed where it can be noticed very easily ,whilst junk mail might be put in a low priority area, such as a notice board. Similarly in the email client emails that are not from a verified sender or regarded as spam get moved to the junk mail, whilst important emails are kept in the inbox. Emails that might need further action taken at a later point can be flagged by the user, so that they can easily refer to it at a  later stage, which is similar to placing mail on a notice board. If unimportant promotional mail is received then it can be binned, similarly if junk email is received then it can be deleted.          
@@ -23,16 +23,16 @@ The email client that I will design, relates to my understanding of how a no-dig
 4. Users should be able to forward an email to multiple peoples. 
 5. Users should be able to organise emails into folders. 
 6. Users should be able to delete emails.
-7. Users chould be able to change account settings. 
+7. Users should be able to change account settings. 
 
 ##### User Stories
-```diff
--Include user stories and add context
-```
+The user stories diagram below shows the users ability to attach files to an email.
+
+ ![Email Use Stories.jpg](Email User Stories.jpg "User Stories ")
 
 
 ##### Use Case
-
+The use case diagram below shows that the user and administrator can manage the email account. It also shows how a user can download media files and send or view their emails. 
  ![Email Use Case.jpg](Email Use Case.jpg "Use Case ")
 
 
