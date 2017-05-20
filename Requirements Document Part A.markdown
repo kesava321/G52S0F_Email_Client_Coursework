@@ -111,25 +111,25 @@ Firstly the user accesses the email client though the web. The user will then be
 
 
 ##### Use Case
-The use case diagram below shows that the user and administrator can manage the email account. It also shows how a user can download media files and send or view their emails. 
+The use case diagram below shows that the user and administrator can manage the email account. It also shows how a user can download media files and send or view their emails. This diagram also meets the following functional requirements: 1.2, 1.3, 2.4, 2.5, 2.7 and 2.8.
  ![Email Use Case.jpg](Email Use Case.jpg "Use Case ")
- 
 
 
 ##### Activity 
 The activity diagram below shows the login process of the email client. 
-
+This diagram also meets the following functional requirements: 2.9 and 3.0. 
  ![Email Activity.jpg](Email Activity.jpg "Activity")
  
  
 ##### Sequence  
  
 The sequence diagram below shows the various features that the email client has, this includes marking an email as junk, flagging an email, reporting a scam, pinning an email, adding contacts and organising emails into a folder.  
+This diagram also meets the following functional requirements: 1.6, 1.7, 1.9 and 2.6.
 
 ![Email Sequence.jpg](Email Sequence.jpg "Sequence")
 
 The sequence diagram below shows the process of logging in, then sending and receiving emails with file attachments.  
-
+This diagram also meets the following functional requirements: 1.2, 1.4, 1.8, 2.4, 2.5, 2.7 and 2.9.
 ![Email Sequence Adv.jpg](Email Sequence Adv.jpg "Sequence Adv")
 
 
