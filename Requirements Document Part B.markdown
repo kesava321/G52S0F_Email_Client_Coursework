@@ -26,22 +26,17 @@
 ![Layered Architecture.jpg](Layered Architecture.jpg "Layered Architecture")
 
 
-### 5.Repository Architecture
-
-![Repository Architecture.jpg](Repository Architecture.jpg "Repository Architecture")
-
-
-### 6.Software Architecture
+### 5.Software Architecture
 
 ![Software Architecture.jpg](Software Architecture.jpg "Software Architecture")
 
 
-### 7.Class Diagram
+### 6.Class Diagram
 
 ![Email Class.jpg](Email Class.jpg "Email Class")
 
 
-### 8.Description of Classes
+### 7.Description of Classes
 
 - **_Account Login_** - This class simply contains the login form, which has two  input boxes for the username and password. 
 
