@@ -42,26 +42,19 @@ The diagram below shows the process of a user sending an email to a recipient. A
 ### 3.Model View Controller (MVC) Architectural Pattern 
 
 The diagram shows the authentication process, when a user logs into their account. This relate to functional requirements 2.9. The blue box in the scenario represents the email client system. First the users enters details and then clicks sign in, then the MVC controller sends the result to the middleware, which verifies the end-user. After this the data is relayed to the Account authentication server, where it verifies the account. It the sends a account validated token back to the controller, which as a result allows a successful login. 
+
 ![MVC Architectural Pattern.jpg](MVC Architectural Pattern.jpg "MVC Architectural Pattern")
 
 
 ### 4.Layered Architecture
-```diff
--Justify diagrams.
--explain acronyms and describe diagrams.  
-```
+
+The diagram 
+
 ![Layered Architecture.jpg](Layered Architecture.jpg "Layered Architecture")
 
 
-### 5.Software Architecture
-```diff
--Justify diagrams.
--explain acronyms and describe diagrams.  
-```
-![Software Architecture.jpg](Software Architecture.jpg "Software Architecture")
 
-
-### 6.Class Diagram
+### 5.Class Diagram
 
 ```diff
 -Two type of relationship aggregation and inheritance 
@@ -76,7 +69,7 @@ The diagram shows the authentication process, when a user logs into their accoun
 ![Email Class.jpg](Email Class.jpg "Email Class")
 
 
-### 7.Description of Classes
+### 6.Description of Classes
 
 ```diff
 -In explanation relate back to requirements.  
