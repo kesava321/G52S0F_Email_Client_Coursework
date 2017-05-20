@@ -39,13 +39,9 @@ The diagram below shows the process of a user sending an email to a recipient. A
 
 
 
-### 3.MVC Architectural Pattern 
-```diff
--Explain what openID connect middleware is
--Either change specification or change diagram to reflect requirements. 
--Justify diagrams.
--explain acronyms and describe diagrams.  
-```
+### 3.Model View Controller (MVC) Architectural Pattern 
+
+The diagram shows the authentication process, when a user logs into their account. This relate to functional requirements 2.9. The blue box in the scenario represents the email client system. First the users enters details and then clicks sign in, then the MVC controller sends the result to the middleware, which verifies the end-user. After this the data is relayed to the Account authentication server, where it verifies the account. It the sends a account validated token back to the controller, which as a result allows a successful login. 
 ![MVC Architectural Pattern.jpg](MVC Architectural Pattern.jpg "MVC Architectural Pattern")
 
 
