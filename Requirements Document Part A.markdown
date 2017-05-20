@@ -4,9 +4,10 @@
 This document will cover the requirements of an email client system. It will cover user and system requirements, as well as functional and non-functional requirements. In addition to that UML diagrams will be used to support the email client system. 
 
 
-### 2.System	Overview
+### 2.System Overview
 The system will allow a user to access an email client through the web. This system will be suitable for a wide variety of people who use email, as a means of communication. It will mostly be used be adults who are in an educational establishment or by an average working person, who may use it in an office environment. The system itself will enable a user to securely login to the email client over the internet, were they will then be able to view, access and manage their emails. 
 
+##### System Context Diagram
 The system context diagram below shows the different systems that the email client interacts with in order to work. 
  
  ![Email System Context.jpg](Email System Context.jpg "System Context")
@@ -31,13 +32,7 @@ The user stories diagram below shows the users ability to attach files to an ema
  ![Email Use Stories.jpg](Email User Stories.jpg "User Stories ")
 
 
-##### Use Case
-The use case diagram below shows that the user and administrator can manage the email account. It also shows how a user can download media files and send or view their emails. 
- ![Email Use Case.jpg](Email Use Case.jpg "Use Case ")
-
-
-
-### 4.Non-functional	requirements of	the	system
+### 4.Non-functional requirements of the system
 
   
 1. **_Interface_** 
@@ -79,7 +74,7 @@ The use case diagram below shows that the user and administrator can manage the 
  
 
 
-### 5.Functional requirements of	the	system
+### 5.Functional requirements of the system
 
 
 | ID    | Title               | Description           | Rational               |
@@ -109,10 +104,16 @@ The use case diagram below shows that the user and administrator can manage the 
 
 
 
-### 6.Formal	description	of the system behaviour
+### 6.Formal description of the system behaviour
 
 
 Firstly the user accesses the email client though the web. The user will then be required to enter  the login details, in order to gain secure access to their email. The system responds appropriately, by either accepting or rejecting the login details. If successful the user will be directed to the main page, which is their Inbox. The user can now do various tasks, such as view an email or write a new email. Once the email is sent the system will send it to the server and then relay it to the receiving client, where the email can then be viewed.    
+
+
+##### Use Case
+The use case diagram below shows that the user and administrator can manage the email account. It also shows how a user can download media files and send or view their emails. 
+ ![Email Use Case.jpg](Email Use Case.jpg "Use Case ")
+ 
 
 
 ##### Activity 
@@ -133,8 +134,14 @@ The sequence diagram below shows the process of logging in, then sending and rec
 
 
 
-### 7.Examples of system	usage
+### 7.Examples of system usage
 
-```diff
--Scenarios of system usage, i.e. mum sends email to school or dad sends email to place of work. 
-```
+##### Scenario 1 
+Manager sends work email with meeting invitation to employee, expecting an email response.  
+
+![Example Systems Usage 1.jpg](Example Systems Usage 1.jpg "Example Systems Usage 1")
+
+##### Scenario 2
+Mum needs to send proof of address documents to school in order to register her child. 
+
+![Example Systems Usage 2.jpg](Example Systems Usage 2.jpg "Example Systems Usage 2")
