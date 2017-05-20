@@ -81,43 +81,31 @@ The use case diagram below shows that the user and administrator can manage the 
 
 ### 5.Functional requirements of	the	system
 
-```diff
--Number individual functional requirements
--Create a requirements table, id, title, rational and description. 
-```
 
-1. **_Main Features:_**
-  * The user should be able to search/view emails, send emails, delete emails and forward emails.
-  * Notifications can be provided, when new mail arrives. 
-  * The user should be able to add contacts to their address book. 
-  * Important emails can be flagged, so they appear at the top of the Inbox.
-  * Junk mail that does not require an immediate action, will be stored in the junk folder.
-  * Emails that may require attention at a later stage can be archived.
-  * Emails can also be organised into folders.
-  * When writing emails spell check should automatically recognise any incorrect spellings or grammatical errors. 
-  * Users should be able to print emails.
-  * An auto-response feature may be added, in the event the user is on a vacation and is unable to respond to an email. 
-  * The email client should not interfere with any other programs that are running.    
-
-
-2. **_Multimedia:_**
-  * The user should be able to attach a file to an email, by using the drag and drop interface or by manually selecting the file in the directory in which it is stored. 
-  * The user be able to send and receive images, videos , music or any other multimedia files.  
-
-
-3. **_Security:_**
-  * Additional security features are provided, such as being able to mark suspicious emails as spam or being able to an unverified block a sender. 
-  * The email client should also allow the secure transfer of any media files.
-  * User can change their password or account settings.
-  * Allow the user to securely log out of the email client.
-  * Outgoing mail should be authenticated, so that the sender'd identity cannot be falsified. 
-
-
-4. **_Protocol:_**
-  * IMAP protocol may be used for downloading messages from your Inbox to your local computer. The advantage of using IMAP over POP is that it allows the users to view the email client on a multitude of devices, such as their laptop, phone or tablet. 
-  * TCP/IP protocol can be used to manage requests by the client over a network. 
-
-
+| ID    | Title               | Description           | Rational               |
+| :---- | :------------------ | :-------------------- | :--------------------- |
+| 1.1   | Search/view emails  | The user should be able to search or view emails. | This allows the user to easily filter out a specific email from a long list of unsorted emails.      |
+| 1.2   | Send/delete emails  | The user should be able to send/delete emails.                     | This is a simple functionality that is necessary in order for the email client to work as intended.          |
+| 1.3   | Forward emails      | The user is able to forward emails to other people. | This reason for this requirement is that users may want to share the contents of the email they received with another user.|
+| 1.4   | Notifications       | The user should be notified when a new email arrives.                      | This is similar to placing a non-digital mail in a place that someone can easily identify it. In this case a notification is used to get the users attention.   |   
+| 1.5   | Contacts            | The user should be able to add contacts to their address book.                 | The reason for this requirement is that it ensure that mail gets sent to the inbox by users in their contact list, rather than it being sent to the junk mail.                  |
+| 1.6   | Flagged emails      | The user should be able to flag emails, so they appear at the top of the list.                        | This is similar to placing a non-digital mail on a notice board that requires attention at a later date. Flagging an email has the same purpose.         |
+| 1.7   | Junk emails         | Junk mail that does not require an immediate action, will be stored in the junk folder.            | This is similar to non-digital mail that does not require any action, for example promotional mail being thrown away. In this case junk email has a similar purpose, as emails that are unimportant and do not require an immediate action are stored here.        |
+| 1.8   | Archived emails     | Emails that may require attention at a later stage should be archived.     | This allows email to be stored that may be required in the future. This is similar to flagging an email, however when archiving emails they can be stored for a longer time and are only reopened when needed.                       |
+| 1.9   | Folders             | The email client should allow users to organise emails into folders.          | This is similar to sorting non-digital mails into importance and priority. However in this case email is sorted into any category the user chooses, for example the user may want a sports folder, to store email regarding sports and a shopping folder, to store emails form e-commerce sites, such as Amazon or Ebay.               |
+| 2.0   | Spell/grammar check | When writing emails spell check should automatically recognise any incorrect spellings or grammatical errors.         |                        The reason for this requirement is to simply ensures there are no errors in the email the user is sending.    | 
+| 2.1   | Print emails        | Users should be able to print emails.          |                        The reason for this requirement is that the user may want to print out something important, so that they have a physical copy, for example they may want to print out an invoice or a household bills statement.        |
+| 2.2   | Auto-response       |  An auto-response feature may be added, in the event the user is on a vacation and is unable to respond to an email.          |                        This allows users to not constantly have the need of responding to emails, if they are busy with something else or simply not available.                     |
+| 2.3   | Interference        | The email client should not interfere with any other programs that are running.                      | This ensures that the email client functional normally without causing disruption to other applications that are also being used by the user.    |
+| 2.4   | File attachments    | The user should be able to attach a file to an email, by using the drag and drop interface or by manually selecting the file in the directory in which it is stored.                  | The user may want to send files another user, therefore this feature is necessary.                  |
+| 2.5   | Multimedia          | The user be able to send and receive images, videos, music or any other multimedia files.          | The user may want to share media with another user, therefore this feature is necessary.            |
+| 2.6   | Spam emails         | Additional security features should be provided, such as being able to mark suspicious emails as spam or being able to an unverified block a sender.    | This ensures that the security of emails are maintained.                   |
+| 2.7   | Secure file transfer| The email client should also allow the secure transfer of any media files.  | This ensures that files that are sent within an email securely arrive in the recipients email box, without being tampered with.|
+| 2.8   | Account settings    | User should be able to set their password or account settings.             | This is necessary as users may want to change their passwords every now and then, they may also want to change they're account settings.                     |
+| 2.9   | Log out             | Allow the user to securely log out of the email client.                       | This ensures that other people can not access the users email account, therefore this is necessary.                          |
+| 3.0   | Email authentication| Outgoing mail should be authenticated, so that the sender's identity cannot be falsified.             | This ensures the email being sent by the user is verified and safely arrives in the recipients inbox. |
+| 3.1   | IMAP protocol       | IMAP protocol may be used for downloading messages from your inbox to your local computer.       |                        The advantage of using IMAP over POP is that it allows the users to view the email client on a multitude of devices, such as their laptop, phone or tablet. |
+| 3.2   | TCP/IP protocol     | TCP/IP protocol can be used to manage requests by the client over a network. | This ensures user can communicate with each other over the internet, therefore this is necessary.  |
 
 
 
@@ -128,13 +116,18 @@ Firstly the user accesses the email client though the web. The user will then be
 
 
 ##### Activity 
- 
+The activity diagram below shows the login process of the email client. 
+
  ![Email Activity.jpg](Email Activity.jpg "Activity")
  
  
 ##### Sequence  
  
+The sequence diagram below shows the various features that the email client has, this includes marking an email as junk, flagging an email, reporting a scam, pinning an email, adding contacts and organising emails into a folder.  
+
 ![Email Sequence.jpg](Email Sequence.jpg "Sequence")
+
+The sequence diagram below shows the process of logging in, then sending and receiving emails with file attachments.  
 
 ![Email Sequence Adv.jpg](Email Sequence Adv.jpg "Sequence Adv")
 
