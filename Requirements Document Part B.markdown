@@ -2,13 +2,8 @@
 
 ### 1.Architecture for Managing an Email
 
-```diff
-
--It is a group of package of components. These are high level modules of the system. 
--Describe what the blue boxes are.
--Explain what the arrows are, i.e. data flow arrows. 
-```
-
+The diagram below is a group of package of components. These are high level modules of the system.  The blue boxes represent the controllers for specific tasks, for example the move and delete email controllers, control the physical location of the email. The email selection system and email system are grouped together as they allow the user to select specific emails from the email system. The view and edit email system are grouped together, as they allow they user to open an email and modify the content of it. The arrows represent data flow, so in this diagram we start with the clients account, which has an inbox. The inbox then sends data to the three controllers, which allows the user to perform specific tasks. The move/delete email controller is linked with the email selection system, as the email needs to be selected in order for it to be move or deleted. The server controller is used to retrieve the email data. 
+ 
 ![Architecture for Managing an Email.jpg](Architecture for Managing an Email.jpg "Architecture for Managing an Email")   
 
 
