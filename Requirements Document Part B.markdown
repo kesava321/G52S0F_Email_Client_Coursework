@@ -57,25 +57,21 @@ The diagram below shows the different layers of the software. As you can see the
 ### 5.Class Diagram
 
 
-The class diagram below shows the relationships between the different classes of the email client. The main class provides functionality that could be implemented in a graphical interface. 
+The class diagram below shows the relationships between the different classes of the email client. The main class provides functionality that could be implemented in a graphical interface.
 
 ![Email Class.jpg](Email Class.jpg "Email Class")
 
 
 ### 6.Description of Classes
 
-```diff
--In explanation relate back to requirements.  
--allows users to manage their mail within the inbox.
--this class provides these functionalities, which have satisfied these requirements. 
-```
-- **_Account Login_** - This class simply contains the login form, which has two  input boxes for the username and password. 
+- **_Account Login_** - This class contains the login form, which has two  input boxes for the username and password. It has satisfied the functional requirements 2.9, as a secure method of logging in has been provided. 
 
-- **_Main_** - This is the main class, which calls the other classes on compile time. It is essentially the user interface class. 
+- **_Main_** - This is the main class, which calls the other classes on compile time. It is essentially the user interface class. It has satisfied the non-functional requirements 1.1, as a user interface that is easy to use has been provided. 
 
-- **_Profile Management_** - This class simple allows the user to edit or delete their profile.
+- **_Profile Management_** - This class simple allows the user to edit or delete their profile. It has satisfied the non-functional requirements 6.1, as users are able to maintain and manage all emails. 
 
-- **_TbProfile_** - This class contains all the relevant information regarding the users profile. 
+
+- **_TbProfile_** - This class contains all the relevant information regarding the users profile. It has satisfied the functional requirements 2.8, as a user account settings feature has been provided that allows the user to change profile information.  
 
 - **_User Database_** - This class provides a secure connection to the database, where the user accounts are stored. 
 
@@ -83,16 +79,14 @@ The class diagram below shows the relationships between the different classes of
 
 - **_TbInbox_** - his class contains all the relevant information regarding the users inbox. 
 
-- **_Create Email_** - This class simply contains the functions that allow the user to create a new email. 
+- **_Create Email_** - This class simply contains the functions that allow the user to create a new email. It has satisfied the functional requirements 1.2, as  the user is able to create and send an email.
+ 
+- **_Folders_** - The class contains all the other additional functionalities of the email client. It also allows the user to manage and organise any folders that they may have created. It has satisfied the functional requirements 1.9, as  the user is able to organise emails into folders. 
 
-- **_Functions_** - The class contains all the other additional functionalities of the email client.
-
-- **_Junk_** - This class simply contains junk email, where the user can perform an appropriate action.
+- **_Junk_** - This class simply contains junk email, where the user can perform an appropriate action. It has satisfied the functional requirements 1.7, as  the user is able to move emails into the junk email folder. 
 
 - **_Drafts_** - This class simply contains drafts, where the user can perform an appropriate action.
 
-- **_Sent Email_** - This class simply contains sent emails, where the user can perform an appropriate action.
+- **_Sent Email_** - This class simply contains sent emails, where the user can perform an appropriate action. It has satisfied the functional requirements 1.2, as  the user is able to send an email.
 
-- **_Deleted Email_** - This class simply contains deleted emails, where the user can perform an appropriate action.
-
-- **_Manage Folders_** - This class allows the user to manage and organise any folders that they may have created.
+- **_Deleted Email_** - This class simply contains deleted emails, where the user can perform an appropriate action. It has satisfied the functional requirements 1.2, as  the user is able to delete an email.
