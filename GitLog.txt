@@ -1,0 +1,305 @@
+commit f22b291e000b872151f1a520f235142ad4123c8f
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 17:31:52 2017 +0100
+
+    Related diagrams to requirements.
+
+commit 2dedb15b246a1186f21d71dac1f29ada1645de7b
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 17:22:17 2017 +0100
+
+    Improved description of class diagram
+
+commit c270f7c1f7e577403494fd0363309ea551efb8a7
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 17:07:26 2017 +0100
+
+    Improved class diagram
+
+commit a9ada55eec0816d90ec7c5495d2358b653569ab5
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 16:37:13 2017 +0100
+
+    Added explanation to layered architecture
+
+commit dd7ca12e6ccfd4a23f7f1801e49a4863adcaa2d0
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 16:30:42 2017 +0100
+
+    Removed software architecture diagram
+
+commit de46230ead94ed3b3f39825821443ac07b2a2fa8
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 16:23:28 2017 +0100
+
+    Added explanation to MVC architectural diagram
+
+commit 086c2a00d4f3b52446ac7f31e81324b640190a8f
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 16:15:06 2017 +0100
+
+    Improved MVC architecture diagram
+
+commit 905bf510c27ac8a9bc1bf9734f87b8e43b78e0f3
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 16:04:24 2017 +0100
+
+    Explanation added to client server architectures
+
+commit dbe26c69989b02f0e4a2cb10039a9cdc2f9a73e1
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 15:20:37 2017 +0100
+
+    Description added to managing an email architecture
+
+commit 321b495012dc1ea70bbcdc06374ae85f459b46ad
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 15:09:02 2017 +0100
+
+    Noted down improvements for part b
+
+commit 5f3ab66712ffad2a829a4a5e6a10f0b84dabd06d
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 14:34:18 2017 +0100
+
+    Removed repositry architecture diagram
+
+commit 52759df4c8cf83119ee7c309c3bd37e658850ed3
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 14:30:41 2017 +0100
+
+    Formatted markdown file
+
+commit f9406f02a92270d172af9c1511acfe319bf075ef
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 14:27:53 2017 +0100
+
+    Added example of system usage diagrams
+
+commit 9be4c23efb88350d6d98e052f53520b2af0eb6eb
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 13:55:25 2017 +0100
+
+    Numbered and formatted functional requirements into table.
+
+commit faada8de2a32f5d5cc5bf18f7964b120f83cb415
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 19 22:30:11 2017 +0100
+
+    Improved non-functional requirements
+
+commit affaf8d8c93c05bca064c5f66378df444136f63b
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 19 22:13:38 2017 +0100
+
+    Added user stories
+
+commit 7f4f7c95043581b0885a083ce8676382ec06de64
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 19 21:48:26 2017 +0100
+
+    Added user requirements
+
+commit 676a6498f4fe89730855e2ea46789b25f269f667
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 19 21:33:24 2017 +0100
+
+    Added system context diagram
+
+commit 212d0be2ea7295fd9ac38a8d793532a30cbd62eb
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 19 21:02:15 2017 +0100
+
+    Related email client to non-digital domestic mail.
+
+commit 074f32ab83376a9fe28ba5add0b162533d145e95
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 19 20:34:25 2017 +0100
+
+    Highlighted areas of improvements
+
+commit c7a75e9e3b54f6cd0f67236a31102b1f40b71196
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 19 20:16:54 2017 +0100
+
+    Corrected formatting issues
+
+commit 05f95843292b57e474e44a039aef44944460a426
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 18:14:51 2017 +0100
+
+    Further described the remaining classes in detail.
+
+commit c84701ab56d41a047639b3d11d6e65e9821b1828
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 18:10:08 2017 +0100
+
+    Described some of the classes in detail
+
+commit cdb7c9e49dc389eb12d7a389a218b5edfef80348
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 18:03:29 2017 +0100
+
+    Listed all the classes, which need to be described
+
+commit 36a0a63116289d7b3a709406f7ffa925ddc923f0
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 17:57:36 2017 +0100
+
+    Added class diagram
+
+commit bc6723b29f2f5dd35de2f24bdffac837d73e589b
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 16:36:35 2017 +0100
+
+    Added software architecture diagram
+
+commit 8251f96fbf0fd8827d1b00b4e930506eaaabe03f
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 16:20:30 2017 +0100
+
+    Added repository architecture diagram
+
+commit b69a4f5d120369f7704b1037f9164841e2b94727
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 16:08:53 2017 +0100
+
+    Added layered architecture diagram
+
+commit f8734df394230a34e3d6b2255dcf98c8da1c2704
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 15:55:05 2017 +0100
+
+    Added MVC architecture pattern diagram
+
+commit b053d6b3be4739088c1107db8fe0c79668bbb583
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 14:21:44 2017 +0100
+
+    Added second client server architecture diagram
+
+commit 9b9d77e22f2df85ef80b0be3c03b0fab9301296c
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 13:52:54 2017 +0100
+
+    Added client server architecture diagram
+
+commit bc046224eec05c22914671d32f33409342c2f783
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 02:23:21 2017 +0100
+
+    Added architecture for managing an email diagram
+
+commit d25f3e0bd50d79225c463978ddbf2b8c54e0fecf
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Fri May 5 00:42:56 2017 +0100
+
+    Added main headings and structured document
+
+commit dfda999621d6d67803afbef08fb634498fe6e1e0
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Wed May 3 19:41:13 2017 +0100
+
+    Added coursework part B markdown file
+
+commit 2d9bcec4eeb4d9231d976d7b85981248adbf381c
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Fri Mar 31 19:23:34 2017 +0100
+
+    Added UML diagrams to markdown file
+
+commit 4205f510625b98959577f450730e4f357aabf74e
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Fri Mar 31 19:12:09 2017 +0100
+
+    Added UML diagrams to repositry
+
+commit ea3bdeb159cbcb206e336f14e743aa41f8f34764
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Thu Mar 30 15:34:58 2017 +0100
+
+    Added formal description of the system behaviour
+
+commit fe8b75c6a49f9b33f47c42f5ace3d2b67b109ede
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Thu Mar 30 15:13:02 2017 +0100
+
+    Changed bullet points into unordered sublists
+
+commit 50219173099eb40a3ac8584df3315228333f03f4
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Thu Mar 30 15:00:32 2017 +0100
+
+    Formatted functional requirements
+
+commit 3a7072429d87d10dde126971bedc82f0401f8f3e
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Thu Mar 30 14:39:08 2017 +0100
+
+    Corrected protocol functional requirement
+
+commit f71f791cc6f256259ae1035604401a948a2d3707
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Thu Mar 30 14:18:53 2017 +0100
+
+    Formatted non-functional subheadings by making it bold and italic
+
+commit e24c0b4fe3905f0b19beda4888ba4d38f540438e
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Thu Mar 30 14:05:21 2017 +0100
+
+    Removed platform independant from non-functional requirements
+
+commit ace6a46838cdabc0d8a4ca10b37ecb01f98544d3
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Thu Mar 30 13:57:23 2017 +0100
+
+    Improves system overview
+
+commit 2f39cf8034ca2784f8aa3a0398fa7601409a4c14
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Tue Mar 7 13:20:42 2017 +0000
+
+    Suggested improvements by James Colley
+
+commit e7105565058899da6ecdea4a02962a816598aa2b
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Fri Mar 3 23:04:50 2017 +0000
+
+    Added more functional requirements
+
+commit c6651d9b74d05f5abeea3150353bbd60e08f0454
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Fri Mar 3 22:54:59 2017 +0000
+
+    Added non-functional requirements
+
+commit 58a7e03a4a00d0cb955f8864985a8f084bc9dfb1
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Fri Mar 3 22:34:36 2017 +0000
+
+    Added functional requirements
+
+commit 59343d59d92bc54a4d2c39608b814d4d38626d97
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Fri Mar 3 22:14:23 2017 +0000
+
+    Brief summary of the system overview
+
+commit 715aedcfaeb0b9353cc7618dd8b7e44617b51b76
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Wed Mar 1 22:44:37 2017 +0000
+
+    Started introduction to document section
+
+commit 7bc9cb215d2cf7247daaad0e6eb9f1db0822a06b
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Wed Mar 1 22:37:09 2017 +0000
+
+    Added main headings and structured document
+
+commit b5693d5314f4b7730d9f555d56e57da72900b860
+Author: Kesava Uthaya-kumaran <Kesava Uthaya-kumaran>
+Date:   Wed Mar 1 22:21:31 2017 +0000
+
+    Created requirements document markdown file

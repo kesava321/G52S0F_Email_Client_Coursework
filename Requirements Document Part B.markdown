@@ -17,7 +17,7 @@ This diagram shows the various protocols and servers that are needed in order to
 ![Client Server Architecture.jpg](Client Server Architecture.jpg "Client Server Architecture") 
 
 #### Protocol Definitions
-
+- Messaging Application Programming Interface(MAPI)- This allows a client program to become email messaging enabled. 
 - Internet Message Access Protocol(IMAP)- This is used to store email messages on a mail server. It also allows the end user to view and manipulate the messages. 
 - Simple Mail Transfer Protocol (SMTP)- This is used for sending and receiving emails. 
 - Representational State Transfer (REST)- This specifies constraints that allow the service to work best on the web. 
