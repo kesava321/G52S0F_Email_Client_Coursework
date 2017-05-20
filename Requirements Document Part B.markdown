@@ -9,19 +9,35 @@ The diagram below is a group of package of components. These are high level modu
 
 ### 2.Client Server Architecture 
 
-```diff
--explain what blue box means.
--This is a in the diagrram  i have shown this. It is inside a big blue blue box, the reason for this is that.... things are related in this way..
--explain protocols IMAP, SMTP, REST, WABP, LDAP
-```
+This diagram shows the various protocols and servers that are needed in order to provide an email service, address book and directory service. The first outer blue box represents the email client system. The second inner blue box represents the connectors for the the email client. The reason for this is that it shows the interaction between the server, the connectors and the email client. The arrows represent the protocols that are used for transferring information from a server to the component. In addition to that some of the protocols used are new, as these protocols are more appropriate for describe the interactions between the server and the email client, than the protocols mentioned in the requirements specification.
+
+     
 **_Diagram 1_**
 
 ![Client Server Architecture.jpg](Client Server Architecture.jpg "Client Server Architecture") 
 
+#### Protocol Definitions
+
+- Internet Message Access Protocol(IMAP)- This is used to store email messages on a mail server. It also allows the end user to view and manipulate the messages. 
+- Simple Mail Transfer Protocol (SMTP)- This is used for sending and receiving emails. 
+- Representational State Transfer (REST)- This specifies constraints that allow the service to work best on the web. 
+- Lightweight Directory Access Protocol (LDAP)- This runs above the TCP/IP protocol, as mentioned in functional requirements 3.2. This protocol allows users to connect, search and modify internet directories.  
+
 
 **_Diagram 2_**
 
+
+#### Definitions of Technical Terms
+- Nullmailer is a mail queue in which emails are placed and sent from.  
+- Procmail is a mial processing tools for Unix, which helps you to filter and sort email. 
+- LMDA refers to Linux Mail Delivery Agent, which is simply responsible  for sending and receiving mail.
+- ISP is the internet service provider.
+
+The diagram below shows the process of a user sending an email to a recipient. As you can see it it divided up into four sectors, this is to show the process taking place at the senders computer and the senders ISP, as well as the recipients computer and recipients ISP. 
+ 
 ![Client Server Architecture2.jpg](Client Server Architecture2.jpg "Client Server Architecture2") 
+
+
 
 ### 3.MVC Architectural Pattern 
 ```diff
