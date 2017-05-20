@@ -56,15 +56,8 @@ The diagram below shows the different layers of the software. As you can see the
 
 ### 5.Class Diagram
 
-```diff
--Two type of relationship aggregation and inheritance 
--change functions to folders
--add inheritance relationship for folders 
--aggregation between main class and main menu would be appropriate.
--profile manager is aggregation. 
--main class provides functionality that could be implemented in a graphical interface. 
-```
 
+The class diagram below shows the relationships between the different classes of the email client. The main class provides functionality that could be implemented in a graphical interface. 
 
 ![Email Class.jpg](Email Class.jpg "Email Class")
 
