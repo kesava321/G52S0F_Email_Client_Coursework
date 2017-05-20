@@ -48,7 +48,7 @@ The diagram shows the authentication process, when a user logs into their accoun
 
 ### 4.Layered Architecture
 
-The diagram 
+The diagram below shows the different layers of the software. As you can see the web email client is at the top, underneath that is the authentication layer, which provides security for the users email account, which satisfies functional requirements 2.9 and 3.0. Underneath this layer is the functionality layer that provides the various features of the email client. The last layer at the bottom provides the email management system, support system and accounts database, which satisfy function requirements 2.8.      
 
 ![Layered Architecture.jpg](Layered Architecture.jpg "Layered Architecture")
 
