@@ -33,7 +33,7 @@ This diagram shows the various protocols and servers that are needed in order to
 - LMDA refers to Linux Mail Delivery Agent, which is simply responsible  for sending and receiving mail.
 - ISP is the internet service provider.
 
-The diagram below shows the process of a user sending an email to a recipient. As you can see it it divided up into four sectors, this is to show the process taking place at the senders computer and the senders ISP, as well as the recipients computer and recipients ISP. 
+The diagram below shows the process of a user sending an email to a recipient. As you can see it it divided up into four sectors, this is to show the process taking place at the senders computer and the senders ISP, as well as the recipients computer and recipients ISP. The arrows represent data flow, so the double headed arrow allows data to flow both ways, meanwhile the single headed arrow allows to flow one way.   
  
 ![Client Server Architecture2.jpg](Client Server Architecture2.jpg "Client Server Architecture2") 
 
@@ -41,14 +41,14 @@ The diagram below shows the process of a user sending an email to a recipient. A
 
 ### 3.Model View Controller (MVC) Architectural Pattern 
 
-The diagram shows the authentication process, when a user logs into their account. This relate to functional requirements 2.9. The blue box in the scenario represents the email client system. First the users enters details and then clicks sign in, then the MVC controller sends the result to the middleware, which verifies the end-user. After this the data is relayed to the Account authentication server, where it verifies the account. It the sends a account validated token back to the controller, which as a result allows a successful login. 
+The diagram shows the authentication process, when a user logs into their account. This relate to functional requirements 2.9. The blue box in the scenario represents the email client system. First the users enters details and then clicks sign in, then the MVC controller sends the result to the middleware, which verifies the end-user. After this the data is relayed to the Account authentication server, where it verifies the account. It the sends a account validated token back to the controller, which as a result allows a successful login. The arrows in this case represent moving from one state to another, so at the start user clicks sign in and at the same time the authentication process begins. It also represents data flow from the MVC controller to the Account authentication server.      
 
 ![MVC Architectural Pattern.jpg](MVC Architectural Pattern.jpg "MVC Architectural Pattern")
 
 
 ### 4.Layered Architecture
 
-The diagram below shows the different layers of the software. As you can see the web email client is at the top, underneath that is the authentication layer, which provides security for the users email account, which satisfies functional requirements 2.9 and 3.0. Underneath this layer is the functionality layer that provides the various features of the email client. The last layer at the bottom provides the email management system, support system and accounts database, which satisfy function requirements 2.8.      
+The diagram below shows the different layers of the software. As you can see the web email client is at the top, underneath that is the authentication layer, which provides security for the users email account, which satisfies functional requirements 2.9 and 3.0. Underneath this layer is the functionality layer that provides the various features of the email client. The last layer at the bottom provides the email management system, support system and accounts database, which satisfy function requirements 2.8.
 
 ![Layered Architecture.jpg](Layered Architecture.jpg "Layered Architecture")
 
@@ -57,7 +57,7 @@ The diagram below shows the different layers of the software. As you can see the
 ### 5.Class Diagram
 
 
-The class diagram below shows the relationships between the different classes of the email client. The main class provides functionality that could be implemented in a graphical interface.
+The class diagram below shows the relationships between the different classes of the email client. The main class provides functionality that could be implemented in a graphical interface. The shaded diamond arrows represents a composition relationship, this means that a class " is a part" of another class. This shows a binary association, which in simple terms means that if the main class is deleted all of its connected classes will also be deleted. For example if main is deleted create email will also be deleted. The unshaded diamond arrow represents a aggregation relationship, this means that a class "has a" another class associated with it. In this diagram the folder class has several other classes, which are associated with it. This interaction between the folders class and its associated classes, could also be regarded as an inheritance relationship if all of its associated classes shared the same attribute as the folders class. In simple terms to make it an inheritance relationship I could add the delete operation to the folders class. This would have been represented with a solid line with a triangular arrow head. The dotted arrows shows a dependency, so for example in order for the user database class to work, the profile management class has to present.            
 
 ![Email Class.jpg](Email Class.jpg "Email Class")
 

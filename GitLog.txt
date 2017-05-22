@@ -1,3 +1,15 @@
+commit 71c53e0a7b8ddbff0b84c32249772af8094e0814
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 17:51:31 2017 +0100
+
+    Formatted text spacing
+
+commit ff2372da0382f5eb639fad5ece1ce1039541373f
+Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
+Date:   Sat May 20 17:49:13 2017 +0100
+
+    Added definition of MAPI protocol
+
 commit f22b291e000b872151f1a520f235142ad4123c8f
 Author: Kesava Uthaya-kumaran <psyku@nottingham.ac.uk>
 Date:   Sat May 20 17:31:52 2017 +0100
